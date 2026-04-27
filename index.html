@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KONA清掃オペレーション図</title>
+  <title>KONA清掃オペレーションフロー</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -320,34 +320,34 @@
           </div>
         </td>
 
-        <!-- STEP4: 民泊IN チェックアウト通知 -->
+        <!-- STEP4: 民泊イン チェックアウト通知 -->
         <td class="task-cell">
           <div class="card card-auto">
-            <div class="card-title">民泊IN</div>
+            <div class="card-title">民泊イン</div>
             <ul>
               <li>チェックアウト通知を配信（清掃管理スタッフのみ）</li>
             </ul>
           </div>
         </td>
 
-        <!-- STEP5: 民泊IN 清掃開始ステータス -->
+        <!-- STEP5: 民泊イン 清掃開始ステータス -->
         <td class="task-cell">
           <div class="card card-auto">
-            <div class="card-title">民泊IN</div>
+            <div class="card-title">民泊イン</div>
             <ul>
-              <li>「清掃開始」ボタン押下を検知</li>
+              <li>「清掃開始」ボタンタップ</li>
               <li>清掃管理スタッフへ自動通知</li>
               <li>ステータスを全スタッフへ可視化</li>
             </ul>
           </div>
         </td>
 
-        <!-- STEP6: 民泊IN 清掃完了ステータス -->
+        <!-- STEP6: 民泊イン 清掃完了ステータス -->
         <td class="task-cell">
           <div class="card card-auto">
-            <div class="card-title">民泊IN</div>
+            <div class="card-title">民泊イン</div>
             <ul>
-              <li>「清掃完了」ボタン押下を検知</li>
+              <li>「清掃完了」ボタンタップ</li>
               <li>清掃管理スタッフへ自動通知</li>
               <li>ステータス・報告書・写真を全スタッフへ可視化</li>
               <li style="font-size:11px;color:#555;">※全チェック項目完了しないと完了ボタンは押せない</li>
@@ -369,7 +369,7 @@
             <div class="card-title">予約内容確認</div>
             <ul>
               <li>日時・部屋・人数チェック</li>
-              <li>重複・異常の不備チェック</li>
+              <li>不備・重複チェック</li>
               <li>予約カレンダー反映確認</li>
               <li>清掃カレンダー生成確認</li>
             </ul>
@@ -394,7 +394,7 @@
           <div class="card card-yoyaku">
             <div class="card-title">情報連携</div>
             <ul>
-              <li>清掃対象日の共有<br><span style="font-size:11px;color:#555;">※民泊INで「手配」を設定<br>（清掃管理スタッフへのシステム依頼ボタン）</span></li>
+              <li>清掃対象日の共有<br><span style="font-size:11px;color:#555;">※民泊インで「手配」を設定<br>（清掃管理スタッフへのシステム依頼ボタン）</span></li>
               <li>特記事項共有（特別清掃や連絡事項がある場合等）</li>
             </ul>
             <span class="handoff">▶ 清掃管理スタッフへ連携</span>
@@ -457,6 +457,7 @@
             <ul>
               <li>チェックアウト確認後、清掃スタッフへ連絡</li>
               <li>清掃開始の指示を出す</li>
+              <li>「清掃開始」となっていない場合は担当スタッフへ連絡</li>
             </ul>
             <span class="handoff">▶ 清掃スタッフへ指示</span>
           </div>
@@ -494,7 +495,7 @@
             <div class="card-title">出勤可能日登録</div>
             <ul>
               <li>民泊インで出勤可能日を自己登録</li>
-              <li>登録期限：◯日前まで（義務）</li>
+              <li>登録期限：3週間先まで記入する</li>
               <li>カレンダーで配置確認</li>
             </ul>
           </div>
@@ -517,7 +518,7 @@
             <div class="card-title">清掃開始</div>
             <ul>
               <li>忘れ物・破損の事前確認</li>
-              <li>民泊インへ「清掃開始」入力</li>
+              <li>民泊インへ「清掃開始」をタップ</li>
             </ul>
           </div>
         </td>
@@ -527,7 +528,7 @@
           <div class="card card-souji">
             <div class="card-title">清掃作業</div>
             <ul>
-              <li>Googleカレンダーで次宿泊者の人数・連泊を確認<br><span style="font-size:11px;color:#555;">※民泊INの人数は前日分のため必ずカレンダーで確認</span></li>
+              <li>Googleカレンダーで次宿泊者の人数・連泊を確認<br><span style="font-size:11px;color:#555;">※民泊インの人数は前日分のため必ずカレンダーで確認</span></li>
               <li>室内清掃（リビング・寝室）</li>
               <li>水回り（風呂・トイレ・キッチン）</li>
               <li>備品補充・リネン交換</li>
